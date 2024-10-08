@@ -3,12 +3,12 @@
 
 <html>
   
-<!-- Mirrored from www.tomasbeuzen.com/python-programming-for-data-science/Chapters/Chapter6-numpy-addendum.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Oct 2024 18:16:35 GMT -->
+<!-- Mirrored from www.tomasbeuzen.com/python-programming-for-data-science/chapters/chapter6-numpy-addendum.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Oct 2024 18:16:35 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chapter 6: NumPy Implementation Details &#8212; Python Programming for Data Science</title>
+    <title>chapter 6: NumPy Implementation Details &#8212; Python Programming for Data Science</title>
     
   <link rel="stylesheet" href="../static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
 
@@ -58,22 +58,22 @@
         const thebe_selector_output = ".output"
     </script>
     <script async="async" src="../static/sphinx-thebe.js"></script>
-    <link rel="canonical" href="Chapter6-numpy-addendum.html" />
+    <link rel="canonical" href="chapter6-numpy-addendum.html" />
     <link rel="shortcut icon" href="../static/favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Chapter 7: Introduction to Pandas" href="Chapter7-pandas.html" />
-    <link rel="prev" title="Chapter 5: Introduction to NumPy" href="Chapter5-numpy.html" />
+    <link rel="next" title="chapter 7: Introduction to Pandas" href="chapter7-pandas.html" />
+    <link rel="prev" title="chapter 5: Introduction to NumPy" href="chapter5-numpy.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
 
 
 <!-- Opengraph tags -->
-<meta property="og:url"         content="https://python-programming-for-data-science/Chapters/Chapter6-numpy-addendum.html" />
+<meta property="og:url"         content="https://python-programming-for-data-science/chapters/chapter6-numpy-addendum.html" />
 <meta property="og:type"        content="article" />
-<meta property="og:title"       content="Chapter 6: NumPy Implementation Details" />
-<meta property="og:description" content="Chapter 6: NumPy Implementation Details  &lt;h2&gt;Chapter Outline&lt;span class=&#34;tocSkip&#34;&gt;&lt;/span&gt;&lt;/h2&gt; &lt;hr&gt; &lt;div class=&#34;toc&#34;&gt;&lt;ul class=&#34;toc-item&#34;&gt;&lt;li&gt;&lt;span&gt;&lt;a href=_.html#1." />
+<meta property="og:title"       content="chapter 6: NumPy Implementation Details" />
+<meta property="og:description" content="chapter 6: NumPy Implementation Details  &lt;h2&gt;chapter Outline&lt;span class=&#34;tocSkip&#34;&gt;&lt;/span&gt;&lt;/h2&gt; &lt;hr&gt; &lt;div class=&#34;toc&#34;&gt;&lt;ul class=&#34;toc-item&#34;&gt;&lt;li&gt;&lt;span&gt;&lt;a href=_.html#1." />
 <meta property="og:image"       content="https://python-programming-for-data-science/static/logo.png" />
 
 <meta name="twitter:card" content="summary" />
@@ -111,53 +111,53 @@
 </ul>
 <p class="caption collapsible-parent">
  <span class="caption-text">
-  Chapters
+  chapters
  </span>
 </p>
 <ul class="current nav sidenav_l1">
  <li class="toctree-l1">
-  <a class="reference internal" href="Chapter1-basics.html">
-   Chapter 1: Python Basics
+  <a class="reference internal" href="chapter1-basics.html">
+   chapter 1: Python Basics
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="Chapter2-loops-functions.html">
-   Chapter 2: Loops &amp; Functions
+  <a class="reference internal" href="chapter2-loops-functions.html">
+   chapter 2: Loops &amp; Functions
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="Chapter3-tests-classes.html">
-   Chapter 3: Unit Tests &amp; Classes
+  <a class="reference internal" href="chapter3-tests-classes.html">
+   chapter 3: Unit Tests &amp; Classes
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="Chapter4-style-scripts-imports.html">
-   Chapter 4: Style Chapters, Scripts, Imports
+  <a class="reference internal" href="chapter4-style-scripts-imports.html">
+   chapter 4: Style chapters, Scripts, Imports
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="Chapter5-numpy.html">
-   Chapter 5: Introduction to NumPy
+  <a class="reference internal" href="chapter5-numpy.html">
+   chapter 5: Introduction to NumPy
   </a>
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Chapter 6: NumPy Implementation Details
+   chapter 6: NumPy Implementation Details
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="Chapter7-pandas.html">
-   Chapter 7: Introduction to Pandas
+  <a class="reference internal" href="chapter7-pandas.html">
+   chapter 7: Introduction to Pandas
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="Chapter8-wrangling-basics.html">
-   Chapter 8: Basic Data Wrangling With Pandas
+  <a class="reference internal" href="chapter8-wrangling-basics.html">
+   chapter 8: Basic Data Wrangling With Pandas
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="Chapter9-wrangling-advanced.html">
-   Chapter 9: Advanced Data Wrangling With Pandas
+  <a class="reference internal" href="chapter9-wrangling-advanced.html">
+   chapter 9: Advanced Data Wrangling With Pandas
   </a>
  </li>
 </ul>
@@ -168,42 +168,42 @@
 </p>
 <ul class="nav sidenav_l1">
  <li class="toctree-l1">
-  <a class="reference internal" href="../practice-exercises/Chapter1-basics-practice.html">
+  <a class="reference internal" href="../practice-exercises/chapter1-basics-practice.html">
    Python Basics
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../practice-exercises/Chapter2-loops-functions-practice.html">
+  <a class="reference internal" href="../practice-exercises/chapter2-loops-functions-practice.html">
    Loops &amp; Functions
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../practice-exercises/Chapter3-tests-classes-practice.html">
+  <a class="reference internal" href="../practice-exercises/chapter3-tests-classes-practice.html">
    Unit Tests &amp; Classes
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../practice-exercises/Chapter4-style-scripts-imports-practice.html">
-   Style Chapters, Scripts, Imports
+  <a class="reference internal" href="../practice-exercises/chapter4-style-scripts-imports-practice.html">
+   Style chapters, Scripts, Imports
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../practice-exercises/Chapter5-numpy-practice.html">
+  <a class="reference internal" href="../practice-exercises/chapter5-numpy-practice.html">
    NumPy
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../practice-exercises/Chapter7-pandas-practice.html">
+  <a class="reference internal" href="../practice-exercises/chapter7-pandas-practice.html">
    Pandas
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../practice-exercises/Chapter8-wrangling-basics-practice.html">
+  <a class="reference internal" href="../practice-exercises/chapter8-wrangling-basics-practice.html">
    Basic Wrangling With Pandas
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../practice-exercises/Chapter9-wrangling-advanced-practice.html">
+  <a class="reference internal" href="../practice-exercises/chapter9-wrangling-advanced-practice.html">
    Advanced Wrangling With Pandas
   </a>
  </li>
@@ -247,7 +247,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../sources/Chapters/Chapter6-numpy-addendum.ipynb"><button type="button"
+        <a class="dropdown-buttons" href="../sources/chapters/chapter6-numpy-addendum.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.ipynb</button></a>
         <!-- Download PDF via print -->
@@ -285,7 +285,7 @@
         aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
     <div class="dropdown-buttons">
         
-        <a class="binder-button" href="https://mybinder.org/v2/gh/TomasBeuzen/python-programming-for-data-science/main?urlpath=tree/Chapters/Chapter6-numpy-addendum.ipynb"><button type="button"
+        <a class="binder-button" href="https://mybinder.org/v2/gh/TomasBeuzen/python-programming-for-data-science/main?urlpath=tree/chapters/chapter6-numpy-addendum.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
                 data-placement="left"><img class="binder-button-logo"
                     src="../static/images/logo_binder.svg"
@@ -308,8 +308,8 @@
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#Chapter-learning-objectives">
-   Chapter Learning Objectives
+  <a class="reference internal nav-link" href="#chapter-learning-objectives">
+   chapter Learning Objectives
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -368,12 +368,12 @@
               <div>
                 
   <p><img alt="" src="../images/banner.png" /></p>
-<div class="section" id="Chapter-6-numpy-implementation-details">
-<h1>Chapter 6: NumPy Implementation Details<a class="headerlink" href="#Chapter-6-numpy-implementation-details" title="Permalink to this headline">??</a></h1>
-<h2>Chapter Outline<span class="tocSkip"></span></h2>
+<div class="section" id="chapter-6-numpy-implementation-details">
+<h1>chapter 6: NumPy Implementation Details<a class="headerlink" href="#chapter-6-numpy-implementation-details" title="Permalink to this headline">??</a></h1>
+<h2>chapter Outline<span class="tocSkip"></span></h2>
 <hr>
-<div class="toc"><ul class="toc-item"><li><span><a href="#introduction" data-toc-modified-id="1.-Introduction-1">1. Introduction</a></span></li><li><span><a href="#numpy-arrays" data-toc-modified-id="2.-Numpy-Arrays-2">2. Numpy Arrays</a></span></li><li><span><a href="#memory-layout-and-strides" data-toc-modified-id="3.-Memory-Layout-and-Strides-3">3. Memory Layout and Strides</a></span></li><li><span><a href="#why-do-we-care?" data-toc-modified-id="4.-Why-Do-We-Care?-4">4. Why Do We Care?</a></span></li></ul></div><div class="section" id="Chapter-learning-objectives">
-<h2>Chapter Learning Objectives<a class="headerlink" href="#Chapter-learning-objectives" title="Permalink to this headline">??</a></h2>
+<div class="toc"><ul class="toc-item"><li><span><a href="#introduction" data-toc-modified-id="1.-Introduction-1">1. Introduction</a></span></li><li><span><a href="#numpy-arrays" data-toc-modified-id="2.-Numpy-Arrays-2">2. Numpy Arrays</a></span></li><li><span><a href="#memory-layout-and-strides" data-toc-modified-id="3.-Memory-Layout-and-Strides-3">3. Memory Layout and Strides</a></span></li><li><span><a href="#why-do-we-care?" data-toc-modified-id="4.-Why-Do-We-Care?-4">4. Why Do We Care?</a></span></li></ul></div><div class="section" id="chapter-learning-objectives">
+<h2>chapter Learning Objectives<a class="headerlink" href="#chapter-learning-objectives" title="Permalink to this headline">??</a></h2>
 <hr><ul class="simple">
 <li><p>Understand at a high level how NumPy arrays are stored in memory.</p></li>
 <li><p>Explain the concept of ???strides??? in NumPy.</p></li>
@@ -382,11 +382,11 @@
 </div>
 <div class="section" id="introduction">
 <h2>1. Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">??</a></h2>
-<hr><p>In this Chapter, I???ll show more about how NumPy manages and stores arrays in memory. I???ll stress that a thorough understanding of the NumPy internals like how memory is handled and accessed is really more for developers working on super-optimized algorithms or for those interested in these kinds of things. The data scientist who does not care about these implementation details can skip this Chapter and just continue to visualize and use arrays as N-dimensional data structures - afterall the point of NumPy is to abstract away the technical implementation details so such users can focus on writing code and wrangling data!</p>
-<p>This Chapter draws on excellent material presented in:</p>
+<hr><p>In this chapter, I???ll show more about how NumPy manages and stores arrays in memory. I???ll stress that a thorough understanding of the NumPy internals like how memory is handled and accessed is really more for developers working on super-optimized algorithms or for those interested in these kinds of things. The data scientist who does not care about these implementation details can skip this chapter and just continue to visualize and use arrays as N-dimensional data structures - afterall the point of NumPy is to abstract away the technical implementation details so such users can focus on writing code and wrangling data!</p>
+<p>This chapter draws on excellent material presented in:</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://numpy.org/doc/stable/reference/internals.html">The NumPy documentation</a>.</p></li>
-<li><p><a class="reference external" href="https://web.mit.edu/dvp/Public/numpybook.pdf">Chapter to NumPy</a> by Travis Oliphant, 2006.</p></li>
+<li><p><a class="reference external" href="https://web.mit.edu/dvp/Public/numpybook.pdf">chapter to NumPy</a> by Travis Oliphant, 2006.</p></li>
 </ul>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -847,7 +847,7 @@
 <li><p>Why is our array above composed of 3 slices of 3x2 matrices and not 2 slices of 3x3 matrices?</p></li>
 <li><p>how did NumPy decide to fill each 2D matrix slice with elements first, why not fill along the ???depth??? dimension first?</p></li>
 </ol>
-<p>These questions are related and actually much deeper than you might expect. They are explained in detail in the <a class="reference external" href="https://numpy.org/doc/stable/reference/internals.html#multidimensional-array-indexing-order-issues">NumPy documentation</a> and in section <em>2.3 Memory Layout of ndarray</em> in the book <a class="reference external" href="https://web.mit.edu/dvp/Public/numpybook.pdf">Chapter to NumPy</a> by Travis Oliphant, but they are to do with the fundamental implementation of how NumPy reads data from memory.</p>
+<p>These questions are related and actually much deeper than you might expect. They are explained in detail in the <a class="reference external" href="https://numpy.org/doc/stable/reference/internals.html#multidimensional-array-indexing-order-issues">NumPy documentation</a> and in section <em>2.3 Memory Layout of ndarray</em> in the book <a class="reference external" href="https://web.mit.edu/dvp/Public/numpybook.pdf">chapter to NumPy</a> by Travis Oliphant, but they are to do with the fundamental implementation of how NumPy reads data from memory.</p>
 <p>Briefly, NumPy uses ???row-major??? indexing when reading data from memory which basically means that ???grouping??? starts from the left most index. So for a 2D array, the order is <code class="docutils literal notranslate"><span class="pre">(row,</span> <span class="pre">column)</span></code>, for a 3D array the order is <code class="docutils literal notranslate"><span class="pre">(depth,</span> <span class="pre">row,</span> <span class="pre">column)</span></code>, for a 4D array it is <code class="docutils literal notranslate"><span class="pre">(4th</span> <span class="pre">dimension,</span> <span class="pre">depth,</span> <span class="pre">row,</span> <span class="pre">column)</span></code>, etc. The way I think about this is that the ndarray is a container, in the 3D case I think of a cube made up of stacked matrices. I can enter this for container (???dimension???) and view a matrix. The next container is a ???row??? of values which comprises one smaller container for each ???column???. There are two overarching styles that dictate the way data is read in from memory, they are the ???C style??? and ???Fortran style???. NumPy uses the ???C style??? by default which is what we saw above:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -917,13 +917,13 @@
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">image</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">imread</span><span class="p">(</span><span class="s1">&#39;img/Chapter6/tomas_beuzen.png&#39;</span><span class="p">)[:,:,</span><span class="mi">0</span><span class="p">]</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">image</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">imread</span><span class="p">(</span><span class="s1">&#39;img/chapter6/tomas_beuzen.png&#39;</span><span class="p">)[:,:,</span><span class="mi">0</span><span class="p">]</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">image</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="s1">&#39;gray&#39;</span><span class="p">);</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../images/Chapter6-numpy-addendum_72_0.png" src="../images/Chapter6-numpy-addendum_72_0.png" />
+<img alt="../images/chapter6-numpy-addendum_72_0.png" src="../images/chapter6-numpy-addendum_72_0.png" />
 </div>
 </div>
 <p>This is the filter I want to apply to the image:</p>
@@ -956,7 +956,7 @@
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Wall time taken for convolution: 0.0292s
 </pre></div>
 </div>
-<img alt="../images/Chapter6-numpy-addendum_76_1.png" src="../images/Chapter6-numpy-addendum_76_1.png" />
+<img alt="../images/chapter6-numpy-addendum_76_1.png" src="../images/chapter6-numpy-addendum_76_1.png" />
 </div>
 </div>
 <p>That is some wicked fast convolution! ????</p>
@@ -978,7 +978,7 @@
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./Chapters"
+            path: "./chapters"
         },
         predefinedOutput: true
     }
@@ -993,8 +993,8 @@
     
     <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="Chapter5-numpy.html" title="previous page">Chapter 5: Introduction to NumPy</a>
-    <a class='right-next' id="next-link" href="Chapter7-pandas.html" title="next page">Chapter 7: Introduction to Pandas</a>
+    <a class='left-prev' id="prev-link" href="chapter5-numpy.html" title="previous page">chapter 5: Introduction to NumPy</a>
+    <a class='right-next' id="next-link" href="chapter7-pandas.html" title="next page">chapter 7: Introduction to Pandas</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">
@@ -1020,5 +1020,5 @@
     
   </body>
 
-<!-- Mirrored from www.tomasbeuzen.com/python-programming-for-data-science/Chapters/Chapter6-numpy-addendum.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Oct 2024 18:16:42 GMT -->
+<!-- Mirrored from www.tomasbeuzen.com/python-programming-for-data-science/chapters/chapter6-numpy-addendum.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Oct 2024 18:16:42 GMT -->
 </html>
